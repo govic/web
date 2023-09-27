@@ -72,54 +72,23 @@ const Navbar = () => {
             {/* <!-- Primary Menu  --> */}
             <nav className="primary-menu align-items-center">
               {/* <!-- Logo --> */}
-              <Link href="/" className="logo">
+              <p className="logo">
                 <img
-                  src="/images/logo.png"
+                  src="/images/logo24.png"
                   alt="image"
                   className="logo__img logo__dark"
                 />
                 <img
-                  src="/images/logo-light.png"
+                  src="/images/logo24.png"
                   alt="image"
                   className="logo__img logo__light"
-                />
-              </Link>
+                />&nbsp;&nbsp;Smart/Dev
+              </p>
               {/* <!-- Logo End --> */}
               <ul className="list primary-menu__list">
+               
                 <li>
-                  <Link href="#" className="primary-menu__link has-sub">
-                    {" "}
-                    Home{" "}
-                  </Link>
-                  <ul className="list sub-menu">
-                    <li>
-                      <Link href="/" className="sub-menu__link">
-                        {" "}
-                        Home 1{" "}
-                      </Link>
-                    </li>
-                    <li>
-                      <Link href="home-2" className="sub-menu__link">
-                        {" "}
-                        Home 2{" "}
-                      </Link>
-                    </li>
-                    <li>
-                      <Link href="home-3" className="sub-menu__link">
-                        {" "}
-                        Home 3{" "}
-                      </Link>
-                    </li>
-                    <li>
-                      <Link href="home-4" className="sub-menu__link">
-                        {" "}
-                        Home 4{" "}
-                      </Link>
-                    </li>
-                  </ul>
-                </li>
-                <li>
-                  <Link href="#" className="primary-menu__link has-sub">
+                  <Link href="#blog" className="primary-menu__link has-sub">
                     {" "}
                     Blog{" "}
                   </Link>

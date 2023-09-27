@@ -3,7 +3,7 @@ import React from 'react';
 
 const Blog = () => {
     return (
-        <div className="section">
+        <div className="section" id="blog">
         <div className="section__gap-bottom">
           <div className="container">
             <div className="row justify-content-center">
