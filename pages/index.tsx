@@ -64,8 +64,7 @@ const home_4 = () => {
       
       {/* <!-- Counter Section  --> */}
       <Counter />
-      {/* <!-- PRECIO --> */}
-      <Pricing />
+      
      
       
       {/* <!-- Footer --> */}
