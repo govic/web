@@ -1,3 +1,4 @@
+import Pricing from "@/components/Pricing";
 import Counter from "@/components/home_1/Counter";
 import About from "@/components/home_4/About";
 import Blog from "@/components/home_4/Blog";
@@ -53,24 +54,20 @@ const home_4 = () => {
       <Hero />
       {/* <!-- About  --> */}
       <About />
-      {/* <!-- Work Process  --> */}
-      <Workprocess />
+    
       {/* <!-- Technological Tools  --> */}
       <Tools />
       {/* <!-- Why Choose Us  --> */}
       <Whychoose />
-      {/* <!-- Work Process Section  --> */}
-      <Howitwork />
-      {/* <!-- Latest Projects --> */}
-      <Latestproject />
-      {/* <!-- Team Member  --> */}
-      <Team />
+      
+      
+      
       {/* <!-- Counter Section  --> */}
       <Counter />
-      {/* <!-- Blog Section --> */}
-      <Blog />
-      {/* <!-- Review Section  --> */}
-      <Review />
+      {/* <!-- PRECIO --> */}
+      <Pricing />
+     
+      
       {/* <!-- Footer --> */}
       <Footer />
     </>

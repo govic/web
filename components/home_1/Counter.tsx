@@ -17,34 +17,16 @@ const Counter = () => {
               <div className="row justify-content-center">
                 <div className="col-md-10 col-lg-8">
                   <div className="text-center">
-                    <span
-                      // href="https://www.youtube.com/watch?v=UmHMVU6dceA"
-                      onClick={()=> setOpen(true)}
-                      className="bttn bttn--circle bttn--sqr bttn--sqr-md bttn--light-accent video-button">
-                      <span className="material-symbols-rounded mat-icon size-40 solid">
-                        {" "}
-                        play_arrow{" "}
-                      </span>
-                    </span>
+
                     <h2 className="mt-10 mb-5 clr-neutral">
                       {" "}
-                      Preparing for Success Provide the best IT services.{" "}
+                      Experiencia y conocimiento al servicio del desarrollo de soluciones TI{" "}
                     </h2>
                     <p className="clr-neutral t-short-para mx-auto mb-10">
                       {" "}
-                      Adaptable to the unique needs of your company, making it
-                      simple for you to enjoy top-notch IT support.{" "}
+                      Equipo dedicado desde 2011 a uso de tecnologías de la información para desarrollo de soluciones de software Web & Mobile & StandAlone y Productos TI con componentes de Innovación para: simulación basada en Realidad Virtual, Soluciones de Realidad Aumentada, Soluciones para Industria de construcción, Forestal , Educación entre otras.  {" "}
                     </p>
-                    <Link
-                      href="pricing-plan-1"
-                      className="bttn bttn-pill bttn-md bttn--light-accent align-items-center fw-md">
-                      {" "}
-                      Our Pricing Plan{" "}
-                      <span className="material-symbols-rounded mat-icon fw-200 bttn__icon">
-                        {" "}
-                        trending_flat{" "}
-                      </span>
-                    </Link>
+               
                   </div>
                 </div>
               </div>
@@ -59,8 +41,8 @@ const Counter = () => {
                       <img src="/images/icon-7.png" alt="image" />
                     </div>
                     <div className="group group-xxs">
-                      <h3>23+</h3>
-                      <p className="sm-text"> Years of Experience </p>
+                      <h3>12+</h3>
+                      <p className="sm-text"> Años de experiencia </p>
                     </div>
                   </div>
                 </div>
@@ -70,33 +52,13 @@ const Counter = () => {
                       <img src="/images/icon-8.png" alt="image" />
                     </div>
                     <div className="group group-xxs">
-                      <h3>500</h3>
-                      <p className="sm-text"> Complete Projects </p>
+                      <h3>215+</h3>
+                      <p className="sm-text"> Proyectos </p>
                     </div>
                   </div>
                 </div>
-                <div className="col-sm-6 col-lg-3">
-                  <div className="group group-xmd group-row align-items-center bg--white t-shadow p-4 rounded-3 h-100">
-                    <div className="icon-box icon-box--md circle bg-success flex-shrink-0">
-                      <img src="/images/icon-9.png" alt="image" />
-                    </div>
-                    <div className="group group-xxs">
-                      <h3>100+</h3>
-                      <p className="sm-text"> Skilled Experts </p>
-                    </div>
-                  </div>
-                </div>
-                <div className="col-sm-6 col-lg-3">
-                  <div className="group group-xmd group-row align-items-center bg--white t-shadow p-4 rounded-3 h-100">
-                    <div className="icon-box icon-box--md circle bg-warning flex-shrink-0">
-                      <img src="/images/icon-10.png" alt="image" />
-                    </div>
-                    <div className="group group-xxs">
-                      <h3>300+</h3>
-                      <p className="sm-text"> 5 Star Rating </p>
-                    </div>
-                  </div>
-                </div>
+
+           
               </div>
             </div>
           </div>

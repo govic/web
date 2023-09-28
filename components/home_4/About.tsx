@@ -3,29 +3,21 @@ import React from 'react';
 
 const About = () => {
     return (
-        <div className="section">
+        <div className="section" id="proceso">
         <div className="container">
           <div className="row g-4">
             <div className="col-sm-6 col-lg-9 col-xl-3">
               <div className="section__gap-bottom pb-sm-0">
                 <span className="d-block h5 lh-1 fw-semibold clr-base">
                   {" "}
-                  What We Do{" "}
+                  ¿Qué es lo que hacemos?{" "}
                 </span>
-                <h2 className="mt-2 mb-4"> Expertise Field </h2>
+                <h2 className="mt-2 mb-4"> Smart Develop </h2>
                 <p className="mb-5 max-text-40">
                   {" "}
-                  Itechex helps Fintech, Agtech, and Healthtech develop and
-                  sustain effective IT solutions.{" "}
+                  Aprovechamos el potencial creativo y experto humano para transformar las ideas y necesidades en directrices de un proyecto. Utilizamos la velocidad de la Inteligencia Artifical para resolver las problematicas de implementación.Creando así un producto de software de calidad, que responde a las necesidades con mínimos esfuerzos{" "}
                 </p>
-                <Link href="about-us-1" className="t-link t-link--base fw-md">
-                  {" "}
-                  Discover Now{" "}
-                  <span className="material-symbols-outlined mat-icon fw-200">
-                    {" "}
-                    trending_flat{" "}
-                  </span>
-                </Link>
+               
               </div>
             </div>
             <div className="col-sm-6 col-lg-4 col-xl-3">
@@ -44,11 +36,11 @@ const About = () => {
                       className="service-card-3__link">
                       <span className="h6 service-card-3__subtitle clr-dark">
                         {" "}
-                        Data Analytics &{" "}
+                        UI/UX - Modelado de Datos{" "}
                       </span>
                       <span className="service-card-3__title">
                         {" "}
-                        Data Engineering{" "}
+                        Arquitectura{" "}
                       </span>
                     </Link>
                   </h5>
@@ -79,11 +71,11 @@ const About = () => {
                       className="service-card-3__link">
                       <span className="h6 service-card-3__subtitle clr-dark">
                         {" "}
-                        Product{" "}
+                        Construcción de directrices{" "}
                       </span>
                       <span className="service-card-3__title">
                         {" "}
-                        Development{" "}
+                        Elaboración de base del proyecto{" "}
                       </span>
                     </Link>
                   </h5>
@@ -114,9 +106,9 @@ const About = () => {
                       className="service-card-3__link">
                       <span className="h6 service-card-3__subtitle clr-dark">
                         {" "}
-                        Cloud{" "}
+                        Traspaso de diseño de software y directrices{" "}
                       </span>
-                      <span className="service-card-3__title"> Migration </span>
+                      <span className="service-card-3__title"> IA develop </span>
                     </Link>
                   </h5>
                   <Link

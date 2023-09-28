@@ -3,23 +3,24 @@ import React from 'react';
 
 const Tools = () => {
     return (
+      
         <div className="section--sm section--bottom bg--white">
         <div className="section__gap-bottom">
+        <section id="tecnologias"></section>
           <div className="container">
             <div className="row justify-content-center">
               <div className="col-md-9 col-lg-8 col-xl-7">
                 <span className="d-block h5 lh-1 fw-semibold clr-base text-center">
                   {" "}
-                  Technologies{" "}
+                  Tecnologías{" "}
                 </span>
                 <h2 className="mt-5 mb-5 text-center">
                   {" "}
-                  Technologies We Work on{" "}
+                ¿Con qué trabajamos?{" "}
                 </h2>
                 <p className="text-center mx-auto max-text-50">
                   {" "}
-                  Itechex delivers exceptional services through constant
-                  innovation by using cutting-edge technologies.{" "}
+                  Aplicaciones móviles nativas, aplicaciones móviles basadas en Frameworks, Aplicaciones Web para cada necesidad{" "}
                 </p>
               </div>
             </div>
@@ -59,13 +60,13 @@ const Tools = () => {
               <div className="toolset">
                 <div className="toolset__icon">
                   <img
-                    src="/images/brand-icon-3.png"
+                    src="/images/ion.jpg"
                     alt="images"
                     className="img-fluid"
                   />
                 </div>
                 <div className="toolset__content">
-                  <p className="fw-md lg-text clr-heading"> Flutter </p>
+                  <p className="fw-md lg-text clr-heading"> Ionic </p>
                 </div>
               </div>
             </div>
@@ -87,13 +88,13 @@ const Tools = () => {
               <div className="toolset">
                 <div className="toolset__icon">
                   <img
-                    src="/images/brand-icon-5.png"
+                    src="/images/express.jpg"
                     alt="images"
                     className="img-fluid"
                   />
                 </div>
                 <div className="toolset__content">
-                  <p className="fw-md lg-text clr-heading"> Python </p>
+                  <p className="fw-md lg-text clr-heading"> ExpressJS </p>
                 </div>
               </div>
             </div>
@@ -111,7 +112,7 @@ const Tools = () => {
                 </div>
               </div>
             </div>
-            <div className="col-sm-6 col-md-4 col-lg-3 col-xxl-2">
+            <div className="col-sm-6 col-md-4 col-lg-3 col-xxl-3">
               <div className="toolset">
                 <div className="toolset__icon">
                   <img
@@ -125,7 +126,7 @@ const Tools = () => {
                 </div>
               </div>
             </div>
-            <div className="col-sm-6 col-md-4 col-lg-3 col-xxl-2">
+            <div className="col-sm-6 col-md-4 col-lg-3 col-xxl-3">
               <div className="toolset">
                 <div className="toolset__icon">
                   <img
@@ -139,7 +140,7 @@ const Tools = () => {
                 </div>
               </div>
             </div>
-            <div className="col-sm-6 col-md-4 col-lg-3 col-xxl-2">
+            <div className="col-sm-6 col-md-4 col-lg-3 col-xxl-3">
               <div className="toolset">
                 <div className="toolset__icon">
                   <img
@@ -153,35 +154,9 @@ const Tools = () => {
                 </div>
               </div>
             </div>
-            <div className="col-sm-6 col-md-4 col-lg-3 col-xxl-2">
-              <div className="toolset">
-                <div className="toolset__icon">
-                  <img
-                    src="/images/brand-icon-10.png"
-                    alt="images"
-                    className="img-fluid"
-                  />
-                </div>
-                <div className="toolset__content">
-                  <p className="fw-md lg-text clr-heading"> Java </p>
-                </div>
-              </div>
-            </div>
-            <div className="col-sm-6 col-md-4 col-lg-3 col-xxl-2">
-              <div className="toolset">
-                <div className="toolset__icon">
-                  <img
-                    src="/images/brand-icon-11.png"
-                    alt="images"
-                    className="img-fluid"
-                  />
-                </div>
-                <div className="toolset__content">
-                  <p className="fw-md lg-text clr-heading"> Windows </p>
-                </div>
-              </div>
-            </div>
-            <div className="col-sm-6 col-md-4 col-lg-3 col-xxl-2">
+            
+            
+            <div className="col-sm-6 col-md-4 col-lg-3 col-xxl-3">
               <div className="toolset">
                 <div className="toolset__icon">
                   <img
@@ -202,17 +177,14 @@ const Tools = () => {
             <div className="row justify-content-center">
               <div className="col-md-10 col-xl-8">
                 <div className="group group-row justify-content-center">
-                  <Link
-                    href="about-us-1"
-                    className="bttn bttn--stroke-outline bttn-md bttn-pill fw-md flex-shrink-0 align-items-center">
-                    <span className="bttn__arrow"> More About Us </span>
-                  </Link>
+                  
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
+      
     );
 };
 

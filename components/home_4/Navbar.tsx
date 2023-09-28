@@ -42,7 +42,7 @@ const Navbar = () => {
                       {/* <!-- Logo  --> */}
                       <Link href="/" className="logo">
                         <img
-                          src="/images/logo.png"
+                          src="/images/logo24.png"
                           alt="image"
                           className="logo__img logo__dark"
                         />
@@ -88,243 +88,41 @@ const Navbar = () => {
               <ul className="list primary-menu__list">
                
                 <li>
-                  <Link href="#blog" className="primary-menu__link has-sub">
+                  <Link href="#inicio" className="primary-menu__link has-sub">
                     {" "}
-                    Blog{" "}
+                    Inicio{" "}
                   </Link>
-                  <ul className="list sub-menu">
-                    <li>
-                      <Link href="blog-page-1" className="sub-menu__link">
-                        {" "}
-                        Blog Page{" "}
-                      </Link>
-                    </li>
-                    <li>
-                      <Link
-                        href="blog-details-1"
-                        className="sub-menu__link">
-                        {" "}
-                        Blog details{" "}
-                      </Link>
-                    </li>
-                  </ul>
+                  
                 </li>
                 <li>
-                  <Link href="#" className="primary-menu__link has-sub">
+                  <Link href="#servicio" className="primary-menu__link has-sub">
                     {" "}
-                    Service{" "}
+                    Servicios{" "}
                   </Link>
-                  <ul className="list sub-menu">
-                    <li>
-                      <Link href="service-1" className="sub-menu__link">
-                        {" "}
-                        Service Page{" "}
-                      </Link>
-                    </li>
-                    <li>
-                      <Link
-                        href="service-details-1"
-                        className="sub-menu__link">
-                        {" "}
-                        Service details{" "}
-                      </Link>
-                    </li>
-                  </ul>
+                  
                 </li>
                 <li>
-                  <Link href="contact-us-1" className="primary-menu__link">
+                  <Link href="#proceso" className="primary-menu__link">
                     {" "}
-                    Contact Us{" "}
+                    Proceso{" "}
                   </Link>
                 </li>
                 <li className="mega-menu--container">
-                  <Link href="#" className="primary-menu__link has-megamenu">
+                  <Link href="#tecnologias" className="primary-menu__link has-megamenu">
                     {" "}
-                    Pages{" "}
+                    Tecnologias{" "}
                   </Link>
-                  <ul className="list mega-menu">
-                    <li>
-                      <span className="mega-menu__title">
-                        Information Details
-                      </span>
-                      <ul className="list mega-menu__list">
-                        <li>
-                          <Link
-                            href="about-us-1"
-                            className="mega-menu__link">
-                            {" "}
-                            About Us{" "}
-                          </Link>
-                        </li>
-                        <li>
-                          <Link
-                            href="choose-us-1"
-                            className="mega-menu__link">
-                            {" "}
-                            Why Choose Us{" "}
-                          </Link>
-                        </li>
-                        <li>
-                          <Link
-                            href="case-study-1"
-                            className="mega-menu__link">
-                            {" "}
-                            Case Study{" "}
-                          </Link>
-                        </li>
-                        <li>
-                          <Link href="facts-1" className="mega-menu__link">
-                            {" "}
-                            History & Facts{" "}
-                          </Link>
-                        </li>
-                      </ul>
-                    </li>
-                    <li>
-                      <span className="mega-menu__title">Help & Support</span>
-                      <ul className="list mega-menu__list">
-                        <li>
-                          <Link href="faq-1" className="mega-menu__link">
-                            {" "}
-                            FAQ{" "}
-                          </Link>
-                        </li>
-                        <li>
-                          <Link
-                            href="help-center"
-                            className="mega-menu__link">
-                            {" "}
-                            Help Center{" "}
-                          </Link>
-                        </li>
-                        <li>
-                          <Link
-                            href="getting-started"
-                            className="mega-menu__link">
-                            {" "}
-                            Getting Started{" "}
-                          </Link>
-                        </li>
-                        <li>
-                          <Link
-                            href="help-center-details"
-                            className="mega-menu__link">
-                            {" "}
-                            Help Center Details{" "}
-                          </Link>
-                        </li>
-                      </ul>
-                    </li>
-                    <li>
-                      <span className="mega-menu__title">Let's Connect</span>
-                      <ul className="list mega-menu__list">
-                        <li>
-                          <Link
-                            href="case-study-details-1"
-                            className="mega-menu__link">
-                            {" "}
-                            Case Study Details{" "}
-                          </Link>
-                        </li>
-                        <li>
-                          <Link
-                            href="leadership"
-                            className="mega-menu__link">
-                            {" "}
-                            Leadership Page{" "}
-                          </Link>
-                        </li>
-                        <li>
-                          <Link
-                            href="leadership-page"
-                            className="mega-menu__link">
-                            {" "}
-                            Leadership Details{" "}
-                          </Link>
-                        </li>
-                        <li>
-                          <Link
-                            href="referral"
-                            className="mega-menu__link">
-                            {" "}
-                            Refferral{" "}
-                          </Link>
-                        </li>
-                      </ul>
-                    </li>
-                    <li>
-                      <span className="mega-menu__title">Other Pages</span>
-                      <ul className="list mega-menu__list">
-                        <li>
-                          <Link
-                            href="pricing-plan-1"
-                            className="mega-menu__link">
-                            {" "}
-                            Pricing Plan{" "}
-                          </Link>
-                        </li>
-                        <li>
-                          <Link href="error" className="mega-menu__link">
-                            {" "}
-                            404{" "}
-                          </Link>
-                        </li>
-                        <li>
-                          <Link
-                            href="coming-soon"
-                            className="mega-menu__link">
-                            {" "}
-                            Coming Soon{" "}
-                          </Link>
-                        </li>
-                        <li>
-                          <Link
-                            href="terms-condition"
-                            className="mega-menu__link">
-                            {" "}
-                            Terms & Condition{" "}
-                          </Link>
-                        </li>
-                      </ul>
-                    </li>
-                  </ul>
+                 
                 </li>
-                <li className="ms-auto border-end border-light-subtle">
-                  <Link
-                    href="/rtl/home-4"
-                    className="primary-menu__link py-0 px-3">
-                    {" "}
-                    RTL{" "}
-                  </Link>
-                </li>
+              
+              
                 <li>
-                  <button
-                    className="dark-mode-toggle"
-                    onClick={() => setTheme(inactiveTheme)}>
-                    {theme != "light" ? (
-                      <span className="dark-mode-toggle__light">
-                        <span className="material-symbols-rounded mat-icon">
-                          {" "}
-                          light_mode{" "}
-                        </span>
-                      </span>
-                    ) : (
-                      <span className="dark-mode-toggle__dark">
-                        <span className="material-symbols-rounded mat-icon">
-                          {" "}
-                          dark_mode{" "}
-                        </span>
-                      </span>
-                    )}
-                  </button>
-                </li>
-                <li>
-                  <Link
-                    href="pricing-plan-1"
+                  <p
+                    
                     className="bttn bttn--base bttn-sm bttn-pill fw-md flex-shrink-0">
                     {" "}
-                    Free Quote{" "}
-                  </Link>
+                   contacto@govic.cl{" "}
+                  </p>
                 </li>
               </ul>
             </nav>

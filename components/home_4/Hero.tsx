@@ -18,7 +18,7 @@ const Hero = () => {
               centeredSlides={true}
               loop={true}
               autoplay={{
-                delay: 8000,
+                delay:2500,
                 pauseOnMouseEnter: true,
                 disableOnInteraction: false,
               }}
@@ -38,6 +38,7 @@ const Hero = () => {
               className="hero-slider-2"
               >
               <SwiperSlide>
+                <section id="inicio">
                 <div className="hero-slider-2__item">
                   <div className="container">
                     <div className="row">
@@ -45,17 +46,16 @@ const Hero = () => {
                         <div className="text-center text-md-start">
                           <span className="d-block h5 lh-1 fw-semibold clr-base">
                             {" "}
-                            Move Effortlessly to the Cloud{" "}
+                            Desarrolladores de Software Experimentados  + IA{" "}
                           </span>
                           <h1 className="mt-5 mb-5">
                             {" "}
-                            Easy Cloud{" "}
-                            <span className="d-inline clr-base">Migration</span>
+                            Construcción de Software{" "}
+                            <span className="d-inline clr-base">Inteligente</span>
                           </h1>
                           <p className="mb-8 xl-text max-text-40">
                             {" "}
-                            Serverless cloud migration strategies focus on
-                            scaling and performance.{" "}
+                           Desarrollamos software a medida a alta velocidad y bajo costo. Gracias a la incorporación de Inteligencia Artificial a nuestros procesos de construcción de software. Optimizamos y automatizamos etapas.Logrando resultados en una fracción del tiempo normalmente necesario.{" "}
                           </p>
                         </div>
                       </div>
@@ -67,6 +67,7 @@ const Hero = () => {
                       backgroundImage: "url(/images/slider-2-img-1.png)",
                     }}></div>
                 </div>
+               </section>
               </SwiperSlide>
               <SwiperSlide>
                 <div className="hero-slider-2__item">
@@ -76,18 +77,16 @@ const Hero = () => {
                         <div className="text-center text-md-start">
                           <span className="d-block h5 lh-1 fw-semibold clr-base">
                             {" "}
-                            Create bespoke products{" "}
+                            Arquitectura - Modelado de datos - UI/UX{" "}
                           </span>
                           <h1 className="mt-5 mb-5">
                             {" "}
-                            Develop custom{" "}
-                            <span className="d-inline clr-base">products</span>
+                            Creatividad y Experiencia Humanas {" "}
+                            <span className="d-inline clr-base">Velocidad IA</span>
                           </h1>
                           <p className="mb-8 xl-text max-text-40">
                             {" "}
-                            Develop software with scalable technological
-                            infrastructure, fast time to market, clean and
-                            efficient code, and quick technology upgrades.{" "}
+                           Nuestro equipo experto es el encargado de elaborar las directrices claves en: UI/UX, Arquitectura de aplicación, Modelos de datos, Parametros de calidad, entre otros. Dejando las tareas basicas e intermedias a nuestras herramientas de apoyo IA.{" "}
                           </p>
                         </div>
                       </div>
@@ -108,18 +107,16 @@ const Hero = () => {
                         <div className="text-center text-md-start">
                           <span className="d-block h5 lh-1 fw-semibold clr-base">
                             {" "}
-                            Analytics-Based Concluding{" "}
+                           Infraestructuras / Tecnologías /  Sistemas Operativos{" "}
                           </span>
                           <h1 className="mt-5 mb-5">
                             {" "}
-                            Data-Driven{" "}
-                            <span className="d-inline clr-base">Insights</span>
+                            Aplicaciones Móviles{" "}
+                            <span className="d-inline clr-base">& WEB</span>
                           </h1>
                           <p className="mb-8 xl-text max-text-40">
                             {" "}
-                            Intelligent data management boosts operational
-                            efficiency. Advanced data management strategies
-                            yield great insights.{" "}
+                            Desarrollamos soluciones de software para diversas plataformas y sistemas operativos.Preparadas para ser desplegadas en la infraestructura que se requiera{" "}
                           </p>
                         </div>
                       </div>
@@ -140,18 +137,16 @@ const Hero = () => {
                         <div className="text-center text-md-start">
                           <span className="d-block h5 lh-1 fw-semibold clr-base">
                             {" "}
-                            Solutions for Efficient Mobility{" "}
+                           {" "}
                           </span>
                           <h1 className="mt-5 mb-5">
                             {" "}
-                            Smart Mobility{" "}
-                            <span className="d-inline clr-base">Solutions</span>
+                            Resultados a Tiempo{" "}
+                            <span className="d-inline clr-base">Productos de calidad</span>
                           </h1>
                           <p className="mb-8 xl-text max-text-40">
                             {" "}
-                            Thoughtfully built mobility solutions with amazing
-                            content, cutting-edge technologies, and multi-device
-                            knowledge.{" "}
+                            Obtén en fracciones de tiempo resultados del proceso de desarrollo, para iniciar los procesos de prueba y testear con tus usuarios.{" "}
                           </p>
                         </div>
                       </div>
