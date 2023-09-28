@@ -34,7 +34,7 @@ const home_4 = () => {
     <>
     <Head>
         <title>Itechex - IT Solution & Services HTML Template</title>
-        <meta name="description" content=" IT Solution & Services HTML Template" />
+        <meta name="description" content=" Desarrollo de Software Inteligente" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
