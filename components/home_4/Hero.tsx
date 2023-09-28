@@ -77,7 +77,7 @@ const Hero = () => {
                         <div className="text-center text-md-start">
                           <span className="d-block h5 lh-1 fw-semibold clr-base">
                             {" "}
-                            Arquitectura - Modelado de datos - UI/UX{" "}
+                            Desarrollos de Alta Velocidad{" "}
                           </span>
                           <h1 className="mt-5 mb-5">
                             {" "}
