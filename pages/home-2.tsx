@@ -1,3 +1,5 @@
+
+
 import About from "@/components/home_2/About";
 import AboutCompany from "@/components/home_2/AboutCompany";
 import Brand from "@/components/home_2/Brand";
@@ -34,8 +36,8 @@ const home_2 = () => {
   return (
     <>
     <Head>
-        <title>Itechex - IT Solution & Services HTML Template</title>
-        <meta name="description" content=" IT Solution & Services HTML Template" />
+        <title>Govic IA-Dev</title>
+        <meta name="description" content="Govic IA-Dev" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
